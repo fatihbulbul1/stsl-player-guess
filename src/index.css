@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100% !important;
+}
+body {
+  min-height: 100% !important;
+}
+#root {
+  min-height: 100vh !important;
+}
+.App {
+  min-height: 100vh !important;
+}
+.bg-gray-500.gap-7 {
+  min-height: 100vh !important;
+}
