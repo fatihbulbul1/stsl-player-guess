@@ -43,7 +43,7 @@ function App() {
   const [allPlayers, setAllPlayers] = useState<Array<Player>>();
   const [search, setSearch] = useState<Player | null>();
   const [displaySearch, setDisplaySearch] = useState<Player[]>([]);
-  const [temp, setTemp] = useState<Player | null>(null);
+  const [temp, setTemp] = useState<Player | undefined>(undefined);
   const [filteredPlayers, setFilteredPlayers] = useState<Array<Player>>();
   const [gameOver, setGameOver] = useState(false);
   const handleSearch = (event: any, value: Player | null) => {
